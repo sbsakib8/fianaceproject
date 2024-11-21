@@ -9,7 +9,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-      body: ["M PLUS Rounded 1c", 'sans-serif'],
+      'body': ["M PLUS Rounded 1c", 'sans-serif'],
     },
     container: {
       padding: {
@@ -25,9 +25,13 @@ export default {
         primary: '#772AB3',
         secondary: '#ADB2B1',
         boxColor: '#27322F3D',
-        text: '#333',
-        border: '#ddd'
-      }
+        
+      },
+      // background: ;
+
+      backgroundImage: {
+        'gradient-text': "linear-gradient(90deg, #772AB3 0%, #C753FE 100%)",
+      },
     },
   },
   darkMode: "class",
