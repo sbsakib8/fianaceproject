@@ -5,7 +5,7 @@ function Hero() {
     return (
         <>
             {/* main div */}
-            <div className=' flex flex-1 flex-col md:flex-row pl-4 md:pl-10 lg:pl-20 mt-7 md:mt-10 lg:mt-28'>
+            <div className=' flex flex-1 flex-col md:flex-row pl-4 md:pl-10 lg:pl-20 mt-7 md:mt-10 lg:mt-36'>
                 {/* hero content */}
                 <div className=' order-2 md:order-1 mt-7 md:mt-3'>
                     <h1 className=' font-bold text-[40px] md:text-[56px] md:leading-[64px] w-full md:max-w-[604px]'>Spend your Cardano anywhere, anytime.</h1>
