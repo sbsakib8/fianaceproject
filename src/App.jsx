@@ -1,7 +1,6 @@
 
 import './App.css'
-import Btn from './compronent/button/Btn'
-import Card from './compronent/card/Card'
+import Hero from './page/Hero'
 import Navbars from './page/Navber'
 
 
@@ -12,9 +11,8 @@ function App() {
     <>
    <Navbars/>
     <div className=' container'>
-      
-    <h1 className=' text-red-600'>sb sakib sarkar</h1>
-    <Btn title='Get Started' />
+      <Hero/>
+    
    
     </div>
     </>
