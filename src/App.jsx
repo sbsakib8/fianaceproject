@@ -10,8 +10,9 @@ function App() {
   return (
     <>
    <Navbars/>
+   <Hero/>
     <div className=' container'>
-      <Hero/>
+      
     
    
     </div>
