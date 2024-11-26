@@ -28,3 +28,4 @@ const Faqsdata=[
         answer: "Yes, you can return your product to us within 14 days of receiving it. Please provide the original packaging and return the item to our return address. We will accept cash, credit card, or check as payment."
     },
 ]
+export default Faqsdata;
