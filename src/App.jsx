@@ -1,8 +1,10 @@
 
 import './App.css'
-import Offer from './Offer'
+import Debitcard from './page/Debitcard'
+
 import Hero from './page/Hero'
 import Navbars from './page/Navber'
+import Offer from './page/Offer'
 import Vision from './page/Vision'
 
 
@@ -16,7 +18,7 @@ function App() {
     <div className=' container'>
       <Vision/>
       <Offer/>
-    
+      <Debitcard/>
    
     </div>
     </>
