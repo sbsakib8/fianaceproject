@@ -1,7 +1,7 @@
-import analytics from './analytics';
-import group from './group';
-import security from './security';
-const offer = [
+import analytics from './imgicon/analytics.png';
+import group from './imgicon/Group 23.png';
+import security from './imgicon/security.png';
+const offerdata = [
     {
         id: 1,
         img: analytics,
@@ -24,4 +24,4 @@ const offer = [
         
     },
 ];
-export default offer;
+export default offerdata;
