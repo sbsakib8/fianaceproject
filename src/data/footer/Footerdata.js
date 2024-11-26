@@ -1,4 +1,4 @@
-const Footerdat = [
+const Footerdata = [
     {
         title: 'About Us',
         links: ['Investors', 'Features', 'Book a demo','Security ']
@@ -16,3 +16,4 @@ const Footerdat = [
         links: [' Changelog', 'License', 'Site Maps','News']
     }
 ]
+export default Footerdata;
