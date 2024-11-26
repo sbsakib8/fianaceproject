@@ -1,5 +1,6 @@
 
 import './App.css'
+import Cards from './page/Cards'
 import Debitcard from './page/Debitcard'
 
 import Hero from './page/Hero'
@@ -19,6 +20,7 @@ function App() {
       <Vision/>
       <Offer/>
       <Debitcard/>
+      <Cards/>
    
     </div>
     </>

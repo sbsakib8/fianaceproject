@@ -5,7 +5,9 @@ function Cards() {
   return (
     <>
 
-
+     <div>
+      <Card/>
+     </div>
     </>
   )
 }

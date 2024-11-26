@@ -22,3 +22,4 @@ const Reviewdata = [
     },
    
 ]
+export default Reviewdata;
