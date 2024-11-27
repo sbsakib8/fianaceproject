@@ -6,7 +6,7 @@ import Footerdata from '../data/footer/Footerdata';
 
 function Footer(){
   return (
-    <div className=' my-7 py-10 '>
+    <div className=' mt-5 py-10 '>
       <img src="logo.png" alt="" />
       <p>Discover the power of our secure and rewarding credit cards</p>
     <div className=' grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center my-8'>

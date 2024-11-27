@@ -4,10 +4,10 @@ import Faqsdata from "../data/FAQS/Faqsdata";
   
 
   return (
-    <Accordion>
+    <Accordion className=" text-red-600">
       {
         Faqsdata.map((faq, index) => (
-          <AccordionItem key={index} aria-label={`Accordion ${index + 1}`} title={faq.question}>
+          <AccordionItem  key={index} aria-label={`Accordion ${index + 1}`} title={faq.question} >
             {faq.answer}
           </AccordionItem>
         ))
