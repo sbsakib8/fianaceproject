@@ -1,59 +1,19 @@
 import {Accordion, AccordionItem} from "@nextui-org/react";
-
+import Faqsdata from "../data/FAQS/Faqsdata";
  function Faqs() {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+  
 
   return (
-    <Accordion
-      motionProps={{
-        variants: {
-          enter: {
-            y: 0,
-            opacity: 1,
-            height: "auto",
-            transition: {
-              height: {
-                type: "spring",
-                stiffness: 500,
-                damping: 30,
-                duration: 1,
-              },
-              opacity: {
-                easings: "ease",
-                duration: 1,
-              },
-            },
-          },
-          exit: {
-            y: -10,
-            opacity: 0,
-            height: 0,
-            transition: {
-              height: {
-                easings: "ease",
-                duration: 0.25,
-              },
-              opacity: {
-                easings: "ease",
-                duration: 0.3,
-              },
-            },
-          },
-        },
-      }}
-    >
-      <AccordionItem className=" text-white" key="1" aria-label="Accordion 1" title="What credit score do I need to apply for a credit card?">
-        {defaultContent}
-      </AccordionItem>
-      <AccordionItem key="2" aria-label="Accordion 2" title="Accordion 2">
-        {defaultContent}
-      </AccordionItem>
-      <AccordionItem key="3" aria-label="Accordion 3" title="Accordion 3">
-        {defaultContent}
-      </AccordionItem>
+    <Accordion>
+      {
+        Faqsdata.map((faq, index) => (
+          <AccordionItem key={index} aria-label={`Accordion ${index + 1}`} title={faq.question}>
+            {faq.answer}
+          </AccordionItem>
+        ))
+      }
+      
     </Accordion>
   );
 }
-
 export default Faqs;
